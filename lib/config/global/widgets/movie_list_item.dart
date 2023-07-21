@@ -42,11 +42,11 @@ class MovieListItem extends StatelessWidget {
             decoration: BoxDecoration(
                 color: theme.primaryColor,
                 borderRadius: BorderRadius.circular(6)),
-            child: Text(getRandomMoviePoint(minPoint: 7, maxPoint: 10),
+            child: Text(getRandomMoviePoint(minPoint: 8, maxPoint: 10),
                 style: theme.textTheme.labelSmall!.copyWith(
                   fontWeight: FontWeight.w600,
                   color: AppColors.white,
-                )),
+                 )),
           ),
         ));
   }
